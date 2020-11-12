@@ -8,6 +8,6 @@ install_docker(){
     chmod +x /usr/local/bin/docker-compose
     curl -L https://raw.githubusercontent.com/docker/compose/1.8.0/contrib/completion/bash/docker-compose > /etc/bash_completion.d/docker-compose
     clear
-    echo install end
+    echo "install end"
     echo
 }    
